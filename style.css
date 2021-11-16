@@ -57,5 +57,5 @@ section{
 
 /* Agrego espacios después de cada ícono para que no quede pegado con la letra */
 i::after{
-    content: "    ";
+    content: " ";
 }
