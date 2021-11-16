@@ -23,10 +23,24 @@ nav li:hover{
     background-color: #FA7533;
 }
 
-.container{
+main.container{
     margin-top: 3%;
 }
 
 section{
     margin-top: 3%;
+}
+
+.footer-top{
+    margin-top: 3%;
+    color: white;
+}
+
+.footer-bot{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: #034e91;
+    color: white;
+    height: 60px;
 }
