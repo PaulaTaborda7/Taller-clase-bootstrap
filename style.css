@@ -15,6 +15,18 @@
     color: white;
 }
 
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-brand {
+    color: white;
+}
+
 nav li:hover{
     background-color: #FA7533;
+}
+
+.container{
+    margin-top: 3%;
+}
+
+section{
+    margin-top: 3%;
 }
