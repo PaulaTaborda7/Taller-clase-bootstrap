@@ -1,3 +1,19 @@
 *{
     margin: 0%;
 }
+
+#logo{
+    height: 30px;
+    width: 30px;
+}
+
+.carousel-item{
+    width: 50%;
+
+.nav-item {
+    color: white;
+}
+
+nav li:hover{
+    background-color: #FA7533;
+}
