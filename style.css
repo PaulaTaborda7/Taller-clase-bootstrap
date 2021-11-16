@@ -44,3 +44,11 @@ section{
     color: white;
     height: 60px;
 }
+
+#example_paginate > ul > li.paginate_button.page-item {
+    background-color:whitesmoke;
+}
+
+#example_paginate > ul > li.paginate_button.page-item a{
+    text-decoration: none;
+}
