@@ -9,4 +9,11 @@
 
 .carousel-item{
     width: 50%;
+
+.nav-item {
+    color: white;
+}
+
+nav li:hover{
+    background-color: #FA7533;
 }
