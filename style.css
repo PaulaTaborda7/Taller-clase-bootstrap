@@ -20,10 +20,25 @@ nav li:hover{
     background-color: #FA7533;
 }
 /* Estilos carousel */
-.carousel-item{
-    width: 50%;
-
+h2{
+    margin-right:5% ;
 }
+#carousel{
+    margin-left:30%;
+}
+.carousel{
+    align-content: center;
+    width: 50%;
+    /* height: 50%; */
+}
+.carousel-item img{
+    /* width: 20%;
+    height: 20%; */
+    alt: 20%;
+}
+/* .carousel-inner img {
+    margin: auto;
+  } */
 /* Fin Carousel */
 main.container{
     margin-top: 3%;
