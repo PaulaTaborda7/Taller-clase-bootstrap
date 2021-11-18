@@ -20,9 +20,7 @@ nav li:hover{
     background-color: #FA7533;
 }
 /* Estilos carousel */
-h2{
-    margin-right:5% ;
-}
+
 #carousel{
     margin-left:30%;
 }
@@ -31,16 +29,27 @@ h2{
     width: 50%;
     /* height: 50%; */
 }
-.carousel-item img{
-    /* width: 20%;
-    height: 20%; */
-    alt: 20%;
-}
-.carousel-control-prev-icon:{
+        /* Flechas de navegación en carousel */
+.carousel-control-prev-icon{
+    border-radius: 50%;
     background-color: #034e91;
-    background-image: url();
-    
+  
 }
+.carousel-control-next-icon{
+    border-radius: 50%;
+    background-color: #034e91;
+  
+}
+        /* Barras indicaroas inferiores */
+/* .carousel-indicators button{
+    background-color:rgba(1, 200, 255, 0.38)
+} */
+/* #barraIndicador{
+    background-color:rgba(1, 200, 255)
+} */
+/* #barraIndicador:active{
+    background-color:black;
+} */
 
 /* Fin Carousel */
 main.container{
