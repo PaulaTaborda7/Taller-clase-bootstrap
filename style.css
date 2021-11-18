@@ -36,9 +36,12 @@ h2{
     height: 20%; */
     alt: 20%;
 }
-/* .carousel-inner img {
-    margin: auto;
-  } */
+.carousel-control-prev-icon:{
+    background-color: #034e91;
+    background-image: url();
+    
+}
+
 /* Fin Carousel */
 main.container{
     margin-top: 3%;
