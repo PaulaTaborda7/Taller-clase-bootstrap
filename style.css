@@ -1,0 +1,123 @@
+*{
+    margin: 0%;
+}
+
+#logo{
+    height: 30px;
+    width: 30px;
+}
+
+
+/* Cambio el color de  letra del navbar*/
+.nav-item {
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-brand {
+    color: white;
+}
+
+nav li:hover{
+    background-color: #FA7533;
+}
+/* Estilos carousel */
+
+#carousel{
+    margin-left:30%;
+}
+.carousel{
+    align-content: center;
+    width: 50%;
+    /* height: 50%; */
+}
+        /* Flechas de navegación en carousel */
+.carousel-control-prev-icon{
+    border-radius: 50%;
+    background-color: #034e91;
+  
+}
+.carousel-control-next-icon{
+    border-radius: 50%;
+    background-color: #034e91;
+  
+}
+
+/* Fin Carousel */
+main.container{
+    margin-top: 3%;
+}
+
+/* Las secciones tendrán un margen superior del 3% */
+section{
+    margin-top: 3%;
+}
+
+/* Organizo los estilos del footer */
+.footer-top{
+    margin-top: 3%;
+    color: white;
+}
+
+.footer-bot{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: #034e91;
+    color: white;
+    height: 60px;
+}
+
+/* Organizo estilos de la paginación del data-table */
+#example_paginate > ul > li.paginate_button.page-item {
+    background-color:whitesmoke;
+}
+#example_paginate > ul > li.paginate_button.page-item a{
+    text-decoration: none;
+}
+
+/* Agrego espacios después de cada ícono para que no quede pegado con la letra */
+i::after{
+    content: " ";
+}
+
+/* Estilos de los labels que contienen las opciones de la pregunta A nivel general, ¿Cómo te pareció la página? */
+.form-check-label {
+    margin-left: 3%;
+}
+
+/* Estilos para el radio 1 de la pregunta A nivel general, ¿Cómo te pareció la página? */
+#flexRadioDefault1 {
+    margin-left: 3%;
+    background-color: rgb(209, 189, 189);
+}
+
+/* Estilos para el radio 2 de la pregunta A nivel general, ¿Cómo te pareció la página? */
+#flexRadioDefault2 {
+    margin-left: 3%;
+    background-color: rgb(209, 189, 189);
+}
+
+/* Estilos para el radio 3 de la pregunta A nivel general, ¿Cómo te pareció la página? */
+#flexRadioDefault3 {
+    margin-left: 3%;
+    background-color: rgb(209, 189, 189);
+}
+
+/* Elemento Radio, cuando está marcado */
+input[type="radio"]:checked {
+    box-shadow: 0 0 0 5px rgb(255, 133, 33);
+}
+
+/* Estilos del elemento checbox */
+input[type="checkbox"] {
+    background-color: rgb(209, 189, 189);
+}
+
+/* Elemento Checkbox, cuando está marcado */
+input[type="checkbox"]:checked {
+    box-shadow: 0 0 0 5px rgb(255, 133, 33);
+}
+
+/* Color de fondo de la página */
+body {
+    background-color: rgba(252, 245, 235, 0.959);
+}
