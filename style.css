@@ -88,3 +88,46 @@ section{
 i::after{
     content: " ";
 }
+
+/* Estilos de los labels que contienen las opciones de la pregunta A nivel general, ¿Cómo te pareció la página? */
+.form-check-label {
+    margin-left: 3%;
+}
+
+/* Estilos para el radio 1 de la pregunta A nivel general, ¿Cómo te pareció la página? */
+#flexRadioDefault1 {
+    margin-left: 3%;
+    background-color: rgb(209, 189, 189);
+}
+
+/* Estilos para el radio 2 de la pregunta A nivel general, ¿Cómo te pareció la página? */
+#flexRadioDefault2 {
+    margin-left: 3%;
+    background-color: rgb(209, 189, 189);
+}
+
+/* Estilos para el radio 3 de la pregunta A nivel general, ¿Cómo te pareció la página? */
+#flexRadioDefault3 {
+    margin-left: 3%;
+    background-color: rgb(209, 189, 189);
+}
+
+/* Elemento Radio, cuando está marcado */
+input[type="radio"]:checked {
+    box-shadow: 0 0 0 5px rgb(255, 133, 33);
+}
+
+/* Estilos del elemento checbox */
+input[type="checkbox"] {
+    background-color: rgb(209, 189, 189);
+}
+
+/* Elemento Checkbox, cuando está marcado */
+input[type="checkbox"]:checked {
+    box-shadow: 0 0 0 5px rgb(255, 133, 33);
+}
+
+/* Color de fondo de la página */
+body {
+    background-color: rgba(252, 245, 235, 0.959);
+}
